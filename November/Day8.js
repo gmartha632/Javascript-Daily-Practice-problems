@@ -114,3 +114,24 @@ function printPattern(n) {
   }
 }printPattern(4)
 
+
+// Write an algorithm to find the square root of a number without using a library function with accuracy upto 2 decimal places.
+function sqrtOfNum(num,digit) {
+    if(num<=1) return num;
+    let n;
+    for(let i=0;i<=num;i++){
+        if(i*i>num) break;
+        else n=i;
+    }
+    console.log(n);
+    if(n*n==num){
+        return n;
+    }else{
+        for(let i=1;i<10**digit;i++){
+            let val=n+(i/10**digit);
+            if(val*val>num) return n+((i-1)/10**digit);
+        }
+    }
+}
+console.log(sqrtOfNum(646573573458385,4));
+

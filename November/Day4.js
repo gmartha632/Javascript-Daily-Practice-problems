@@ -68,7 +68,7 @@ function nthFibonacci(n) {
     return curr;
 }
 
-let n = 5;
+let n = 4;
 let result = nthFibonacci(n);
 console.log(`Fibbonaci sequnce: ${result}`);
 
