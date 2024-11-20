@@ -10,7 +10,7 @@ console.log([code, quantity]);
 quantity = parseInt("5", 10);
 console.log(quantity);
 
-binary = parseInt("0011", 2);
+binary = parseInt("0111", 2);
 console.log(binary);
 
 //Calculate Total

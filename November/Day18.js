@@ -39,7 +39,7 @@ function calculateTotal(cart) {
     // Loop through each item in the cart
     for (let item of cart) {
       let [code, quantity] = item.split(" ");
-      // quantity = parseInt(quantity, 10);  // Convert quantity to a number
+      quantity = parseInt(quantity, 10);  // Convert quantity to a number
   
       // Check the code and calculate the total based on the item
       if (code === "M") {
