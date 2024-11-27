@@ -101,17 +101,17 @@ function findMax(arr) {
       let mid = Math.floor((left + right) / 2);
       
       if (arr[mid] === target) {
-        console.log("Found");
+        return true;
         break;
-      } else if (arr[mid] <= target) {
+      } else if (arr[mid] < target) {
         left = mid + 1;
       } else {
-        right = mid + 1;
+        right = mid - 1;
       }
     }
     
     return false;  
-  }binarySearch([3,5,6,7,8],5)
+  }console.log(binarySearch([3,5,6,7,8],4))
 
 
 
@@ -122,7 +122,7 @@ function findMax(arr) {
        let nam ="";
     for(let item of data){
         let  [name,age,salary] = item.split(",");
-        //  salary = parseInt(salary, 10);
+         salary = parseInt(salary, 10);
         
             if(salary > max){
               max = salary;

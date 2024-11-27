@@ -75,6 +75,5 @@ function countDistinctVowels(str) {
  
 
 
-
   
  

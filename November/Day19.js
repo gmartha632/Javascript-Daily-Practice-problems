@@ -64,7 +64,7 @@ function SmallestNum(arr) {
 }
 SmallestNum([2, 3, 5, 7, 11, 3, 45, 30]);
 
-// Accessing lexicographically largest 
+// Accessing lexicographically first word
 
 function alpha(first){
   let min = first[0]
