@@ -73,3 +73,6 @@ def maxInThree(a,b,c):
     else:
         print(c) 
 maxInThree(3,5,7)                
+
+
+f = open('day9.py','r') 

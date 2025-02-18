@@ -13,7 +13,7 @@ const a = [10, 20, 30, 40]
 // console.log(z);
 // console.log(w);
 
-const [p, q, , r] = a;
+const [p, q,  r] = a;
 console.log("Example 2");
 console.log(p);
 console.log(q);
