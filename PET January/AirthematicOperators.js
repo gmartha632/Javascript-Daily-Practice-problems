@@ -52,7 +52,7 @@ console.log("Total no of trees planted : " + Total );
 //Qn 4 : Area of a equilateral triangle
 
 let a = 5 ;
-let AreaOfEquilateralTriangle = Math.sqrt(3)*(a**3);
+let AreaOfEquilateralTriangle = (Math.sqrt(3)*(a**2)) / 4;
 console.log("Area Of Equilateral Triangle :" + AreaOfEquilateralTriangle);
 
 //Qn 5 :  Celsius to Farhenheit 

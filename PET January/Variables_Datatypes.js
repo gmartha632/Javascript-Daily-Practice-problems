@@ -24,6 +24,7 @@ console.log(ageNum)
 //Converting Str to Float
 let piStr = "3.14";
 let piFloatNum = parseFloat(piStr);
+console.log(piFloatNum)
 
 
 // Converting Float to Int
@@ -60,12 +61,12 @@ console.log(n);
 
 //Explicit coercion
 
-let value = prompt("Enater a number");
-console.log(value , typeof value);
+// let value = prompt("Enter a number");
+// console.log(value , typeof value);
 
-let change = Number(value) ;
+// let change = Number(value) ;
 
-console.log(change , typeof change);
+// console.log(change , typeof change);
 
  
 
