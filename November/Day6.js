@@ -48,13 +48,12 @@ if (sum % 11 == 0) {
   console.log("It is not divisible by 11");
 }
 
-
 // Function to calculate GCD (Greatest Common Divisor) of two numbers
 function gcd(a, b) {
   while (b !== 0) {
-      let temp = b;
-      b = a % b;
-      a = temp;
+    let temp = b;
+    b = a % b;
+    a = temp;
   }
   return a;
 }
@@ -70,11 +69,8 @@ function lcmOfThree(a, b, c) {
 }
 
 // Example usage
-let a = 12, b = 15, c = 20;
+let a = 12,
+  b = 15,
+  c = 20;
 let result = lcmOfThree(a, b, c);
 console.log(`The LCM of ${a}, ${b}, and ${c} is: ${result}`);
-
-
-
-
-

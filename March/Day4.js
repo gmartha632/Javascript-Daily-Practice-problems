@@ -18,7 +18,7 @@ function BillDivision(bill, k, b) {
 BillDivision([2, 7, 5], 2, 7);
 
 // Cloud jumping sum
-function call(c, k) {
+function cloudJumps(c, k) {
   let i = k;
   let score = 100;
   while (true) {
@@ -41,4 +41,4 @@ function call(c, k) {
   }
   return score;
 }
-console.log(call([0, 1, 1, 0], 2));
+console.log(cloudJumps([0, 1, 1, 0], 2));
