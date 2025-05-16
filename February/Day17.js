@@ -74,7 +74,9 @@ function maxOccurrence(arr) {
             maxElement = key;
         }
     }
+    console.log(obj)
     return maxElement;
+    
 }
 console.log(maxOccurrence([4, 1, 3, 2, 5, 4, 4]));
 
@@ -121,7 +123,7 @@ let a = [3, 5, 8, 11, 13];
 let b = [1, 2, 4, 7, 10];
 for (let i = 0; i < b.length; i++) {
   let x = b[i];
-  let z = [];
+  let z;
   for (let j = a.length - 1; j >= 0; j--) {
     if (b[i] < a[j]) {
       a[j + 1] = a[j];

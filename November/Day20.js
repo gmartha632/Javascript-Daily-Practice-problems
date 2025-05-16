@@ -102,7 +102,7 @@ function findMax(arr) {
       
       if (arr[mid] === target) {
         return true;
-        break;
+        
       } else if (arr[mid] < target) {
         left = mid + 1;
       } else {
@@ -111,7 +111,7 @@ function findMax(arr) {
     }
     
     return false;  
-  }console.log(binarySearch([3,5,6,7,8],4))
+  }console.log(binarySearch([3,5,6,7,8],5))
 
 
 

@@ -109,6 +109,10 @@ function strCheck(s1,str2){
     console.log(count)
 }strCheck("This  is a String","is") ;
 
+let val = "this"
+if(val.includes("is")){
+    console.log("We won")
+}
 
 
 

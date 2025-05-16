@@ -10,7 +10,7 @@ function sockMerchant(n, ar) {
       countMap[ar[i]] = 1;
     }
   }
-
+console.log(countMap)
   // Calculating total pairs of socks in stock
   let count = 0;
   for (let k in countMap) {
